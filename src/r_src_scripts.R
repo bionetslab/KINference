@@ -30,11 +30,11 @@ library(jsonlite)
 #' @examples
 #' # Example usage
 #' load_kinase_data()
-load_kinase_data <- function(kinase_motifs.path = './data/substrate_scoring/kinase_motifs.csv',
-                             kinase_aprior_distributions.path = './data/substrate_scoring/apriori_distributions/',
-                             kinase_scaling_factors.path = './data/substrate_scoring/substrate_scoring_scaling_factors.csv',
-                             kinase_name_mappings.path = './data/substrate_scoring/kinase_name_mappings.tsv',
-                             kinase_name_mappings_mouse.path = './data/substrate_scoring/kinase_name_mappings_mouse.tsv') {
+load_kinase_data <- function(kinase_motifs.path = './data/kinase_data/kinase_motifs.csv',
+                             kinase_aprior_distributions.path = './data/kinase_data/apriori_distributions/',
+                             kinase_scaling_factors.path = './data/kinase_data/substrate_scoring_scaling_factors.csv',
+                             kinase_name_mappings.path = './data/kinase_data/kinase_name_mappings.tsv',
+                             kinase_name_mappings_mouse.path = './data/kinase_data/kinase_name_mappings_mouse.tsv') {
   
   # reading in kinase motif data
   kinase_motifs <- fread(kinase_motifs.path)
