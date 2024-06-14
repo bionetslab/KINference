@@ -512,7 +512,7 @@ get_intensities_for_pairwise_comparison <- function(intensities, disease_conditi
 #' @examples
 #' # Example usage
 #' run_pipeline(sub_scores, "./output/", output_filename)
-run_PCST <- function(sub_scores, output.path, output_filename, functional_scores, beta=0.4, gamma = 1.0) {
+run_PCST <- function(sub_scores, output.path, output_filename, functional_scores, beta = 0.4, gamma = 1.0) {
   
   # Helper function to compute PCST
   compute_PCST <- function(sub_score_net, file_name) {

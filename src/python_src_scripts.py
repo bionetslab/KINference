@@ -13,7 +13,6 @@ parser.add_argument('--output_path', help='Path to output folder')
 args = parser.parse_args()
 
 # PCST
-connected_sub_score_net = args.net_file
 edges_df = pd.read_csv(args.net_file, sep = '\t')
 nodes_df = pd.read_csv(args.node_names_file, sep = '\t')
 
