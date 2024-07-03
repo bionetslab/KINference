@@ -32,4 +32,4 @@ edge_costs = np.ones(e.shape[0])
 vertices, edges = pcst_fast.pcst_fast(e, node_prizes, edge_costs, root, num_clusters, pruning, verbosity_level)
 
 steiner_edges = edges_df.iloc[edges, :]
-steiner_edges.to_csv(args.output_path + '_PCST_network.tsv', sep = '\t', index = False)
+steiner_edges.to_csv(args.output_path, sep = '\t', index = False)
