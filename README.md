@@ -2,7 +2,7 @@
 
 This repository contains the source code of **KINference: Data-Driven Inference of Kinase Interaction Networks** alongside two examplery runs. Refer to the [GitHub Evaluation Repository](https://github.com/bionetslab/KINference-Evaluation-Scripts) for the evaluation code and the plotting results.
 
-<img src="README_files/imgs/overview.png" style="display: block" />
+<img src="README_files/imgs/workflow.png" style="display: block" />
 
 ## Installation instruction
 
