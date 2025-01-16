@@ -120,7 +120,7 @@ run_KINference <- function(
     } else {
         serine_threonine_kinase_data <- list(
             kinase_motifs = Kinference::serine_threonine_kinase_data_chunk1$kinase_motifs,
-            kinase_aprior_distributions = c(Kinference::serine_threonine_kinase_data_chunk1$combined_kinase_aprior_distributions, Kinference::serine_threonine_kinase_data_chunk2$combined_kinase_aprior_distributions, Kinference::serine_threonine_kinase_data_chunk3$combined_kinase_aprior_distributions),
+            kinase_aprior_distributions = c(Kinference::serine_threonine_kinase_data_chunk1$kinase_aprior_distributions, Kinference::serine_threonine_kinase_data_chunk2$kinase_aprior_distributions, Kinference::serine_threonine_kinase_data_chunk3$kinase_aprior_distributions),
             kinase_name_mappings = Kinference::serine_threonine_kinase_data_chunk1$kinase_name_mappings
         )
     }
